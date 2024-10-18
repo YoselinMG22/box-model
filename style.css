@@ -1,0 +1,28 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Clase "container" para aplicar estilos reutilizables */
+  .container {
+    border: 10px double red;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em 2em 3em 4em;
+    outline: 5px solid blue;
+    outline-offset: 10px;
+  }
+  
+  /* Crear un círculo */
+  .circle {
+    margin: 3rem auto;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 50%;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+    height: 100px;
+    width: 100px;
+  }
